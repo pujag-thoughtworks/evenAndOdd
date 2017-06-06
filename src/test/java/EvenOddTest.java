@@ -10,7 +10,7 @@ public class EvenOddTest {
     @Test
     public void twoshouldBeEven() {
         EvenAndOdd evn=new EvenAndOdd(2);
-        assertFalse(evn.isEven());
+        assertTrue(evn.isEven());
     }
 
 }
